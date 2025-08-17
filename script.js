@@ -20,7 +20,7 @@ function renderResults() {
       <td>${res.total}</td>
       <td>${res.average.toFixed(2)}</td>
       <td>${res.grade}</td>
-      <td><button onclick="deleteResult(${index})">Delete</button></td>
+      
     `;
     tableBody.appendChild(row);
   });
