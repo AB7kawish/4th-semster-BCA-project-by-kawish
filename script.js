@@ -20,7 +20,6 @@ function renderResults() {
       <td>${res.total}</td>
       <td>${res.average.toFixed(2)}</td>
       <td>${res.grade}</td>
-      
     `;
     tableBody.appendChild(row);
   });
